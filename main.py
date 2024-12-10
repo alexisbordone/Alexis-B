@@ -1,0 +1,271 @@
+import turtle
+screen = turtle.Screen()
+jimmy = turtle.Turtle()
+jimmy2 = turtle.Turtle()
+screen.setup(500,500)
+screen.bgcolor('silver')
+jimmy.hideturtle()
+jimmy.speed(0)
+
+# intro screen
+jimmy.penup()
+jimmy.goto(0,0)
+jimmy.pendown()
+jimmy.write("All about me!",font=('Arial',20,'bold'),align="center")
+jimmy2.penup()
+
+jimmy2.showturtle()
+turtle.addshape("all abt me 1.gif")
+jimmy2.shape("all abt me 1.gif")
+jimmy2.goto(100,150)
+a = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("all abt me 2.gif")
+jimmy2.shape("all abt me 2.gif")
+jimmy2.goto(-100,150)
+
+jimmy.penup()
+jimmy.goto(-200,-200)
+jimmy.pendown()
+
+jimmy.pencolor('red')
+jimmy.fillcolor('green')
+jimmy.begin_fill()
+jimmy.forward(100)
+jimmy.left(90)
+jimmy.forward(100)
+jimmy.left(90)
+jimmy.forward(100)
+jimmy.left(90)
+jimmy.forward(100)
+jimmy.end_fill()
+
+jimmy.penup()
+jimmy.goto(10,-150)
+jimmy.pendown()
+jimmy.write("Click enter to continue",font=('Arial',15,'bold'),align="center")
+
+enter = input("Press Enter to Continue")
+jimmy2.hideturtle()
+jimmy.clear()
+jimmy2.clear()
+
+# screen one
+screen.bgcolor('hot pink')
+jimmy.penup()
+jimmy.goto(0,200)
+jimmy.pendown()
+jimmy.write("My Favorite Foods are: ",font=('Arial',20,'bold'),align="center")
+jimmy.penup()
+jimmy.goto(0,0)
+jimmy.pendown()
+jimmy.write("1. Pasta\n2. Waffles\n3. Pizza ",font=('Arial',20,'bold italic'),align="center")
+
+jimmy2.showturtle()
+turtle.addshape("pasta.gif")
+jimmy2.shape("pasta.gif")
+jimmy2.goto(100,150)
+a = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("pizza.gif")
+jimmy2.shape("pizza.gif")
+jimmy2.goto(-100,150)
+b = jimmy2.stamp()
+
+jimmy2.showturtle()
+turtle.addshape("waffle.gif")
+jimmy2.shape("waffle.gif")
+jimmy2.goto(200,-200)
+
+
+jimmy.penup()
+jimmy.goto(-200,-200)
+jimmy.pendown()
+
+jimmy.pencolor('red')
+jimmy.fillcolor('blue')
+jimmy.begin_fill()
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.forward(50)
+jimmy.left(45)
+jimmy.end_fill()
+
+jimmy.penup()
+jimmy.goto(10,-150)
+jimmy.pendown()
+jimmy.write("Click enter to continue",font=('Arial',15,'bold'),align="center")
+
+enter = input("Press Enter to Continue")
+jimmy2.hideturtle()
+jimmy.clear()
+jimmy2.clear()
+
+# screen two
+screen.bgcolor('spring green')
+jimmy.penup()
+jimmy.goto(0,200)
+jimmy.pendown()
+jimmy.write("My Hobbies are: ",font=('Arial',20,'bold'),align="center")
+jimmy.penup()
+jimmy.goto(0,0)
+jimmy.pendown()
+jimmy.write("1. Music\n2. Reading\n3. Writing\n4. Drawing ",font=('Arial',20,'bold italic'),align="center")
+
+jimmy2.showturtle()
+turtle.addshape("reading.gif")
+jimmy2.shape("reading.gif")
+jimmy2.goto(100,150)
+a = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("music.gif")
+jimmy2.shape("music.gif")
+jimmy2.goto(-100,150)
+b = jimmy2.stamp()
+
+jimmy2.showturtle()
+turtle.addshape("writing.gif")
+jimmy2.shape("writing.gif")
+jimmy2.goto(200,-200)
+c = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("drawing.gif")
+jimmy2.shape("drawing.gif")
+jimmy2.goto(-100,-100)
+
+
+jimmy.penup()
+jimmy.goto(-200,-200)
+jimmy.pendown()
+
+jimmy.pencolor('purple')
+jimmy.fillcolor('purple')
+jimmy.begin_fill()
+jimmy.circle(25)
+jimmy.left(90)
+jimmy.circle(25)
+jimmy.left(90)
+jimmy.circle(25)
+jimmy.left(90)
+jimmy.circle(25)
+
+jimmy.penup()
+jimmy.goto(10,-150)
+jimmy.pendown()
+jimmy.write("Click enter to continue",font=('Arial',15,'bold'),align="center")
+
+enter = input("Press Enter to Continue")
+jimmy2.hideturtle()
+jimmy.clear()
+jimmy2.clear()
+
+# screen three
+screen.bgcolor('medium purple')
+jimmy.penup()
+jimmy.goto(0,200)
+jimmy.pendown()
+jimmy.write("My Favorite Movie is: ",font=('Arial',20,'bold'),align="center")
+jimmy.penup()
+jimmy.goto(0,0)
+jimmy.pendown()
+jimmy.write("The Nightmare Before Christmas",font=('Arial',20,'bold'),align="center")
+
+jimmy2.showturtle()
+turtle.addshape("nightmare b4 xmas 1.gif")
+jimmy2.shape("nightmare b4 xmas 1.gif")
+jimmy2.goto(100,150)
+a = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("nightmare b4 xmas 2.gif")
+jimmy2.shape("nightmare b4 xmas 2.gif")
+jimmy2.goto(-100,150)
+
+
+jimmy.penup()
+jimmy.goto(-200,-200)
+jimmy.pendown()
+jimmy.setheading(45)
+jimmy.fillcolor('cornsilk')
+jimmy.begin_fill()
+jimmy.forward(100)
+jimmy.right(90)
+jimmy.forward(100)
+jimmy.right(90)
+jimmy.forward(100)
+jimmy.right(90)
+jimmy.forward(100)
+jimmy.end_fill()
+
+jimmy.penup()
+jimmy.goto(10,-150)
+jimmy.pendown()
+jimmy.write("Click enter to continue",font=('Arial',15,'bold'),align="center")
+
+enter = input("Press Enter to Continue")
+jimmy2.hideturtle()
+jimmy.clear()
+jimmy2.clear()
+
+# screen four
+screen.bgcolor('rosy brown')
+jimmy.penup()
+jimmy.goto(0,200)
+jimmy.pendown()
+jimmy.write("My Favorite Sport is: ",font=('Arial',20,'bold'),align="center")
+jimmy.penup()
+jimmy.goto(0,0)
+jimmy.pendown()
+jimmy.write("Hockey",font=('Arial',20,'bold'),align="center")
+
+jimmy2.showturtle()
+turtle.addshape("hockey 1.gif")
+jimmy2.shape("hockey 1.gif")
+jimmy2.goto(100,150)
+a = jimmy2.stamp()
+
+
+jimmy2.showturtle()
+turtle.addshape("hockey 2.gif")
+jimmy2.shape("hockey 2.gif")
+jimmy2.goto(-100,150)
+
+
+jimmy.penup()
+jimmy.goto(-200,-200)
+jimmy.pendown()
+
+jimmy.pencolor('orchid')
+jimmy.fillcolor('peachpuff')
+jimmy.begin_fill()
+jimmy.setheading(90)
+jimmy.begin_fill()
+jimmy.circle(60)
+jimmy.end_fill()
+
+jimmy.penup()
+jimmy.goto(10,-150)
+jimmy.pendown()
+jimmy.write("The End!",font=('Arial',15,'bold'),align="center")
+
